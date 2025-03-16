@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+}
+.flex{
+    display:flex;
+    align-items:flex-start;
+}
+.triangle{
+    background: #2e28ca;
+    clip-path:polygon(65% 0%, 0% 24%, 0% 62%, 100% 100%, 100% 63%, 70% 48%, 100% 30%, 100% 0%);
+}
+.adjacent{
+    display:grid;
+    grid-template-columns: 70vh 40vh;
+}
+.introduction{
+    margin:10rem 2rem 5rem 10rem;
+}
+.introduction h1{
+    font-size:44px;
+    margin-bottom:1rem;
+}
+.workBtn{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:1.5rem 0 0 0 ;
+    padding:0.85rem;
+    border:2px solid white;
+    background: #241fb8;
+    color:white;
+    border-radius: 4px;
+    font-size:16px;
+
+}
+.workBtn div{
+    margin:0 0.5rem 0 0.5rem;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.nav-only{
+    display: flex;
+    flex-direction: flex-start;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6rem;
+    font-family: 'lato';
+}
+.nav-links a{
+    margin-right: 1rem;
+}
+.nav-logo{
+    margin:0.5rem 0 0 2rem;
+}
+.navBar{
+    margin-left: 30rem;
+}
+.code_image{
+    margin-top: 7rem;
+}
+.code_image img{
+    width:515;
+    height:305;
+}
+.contact-links{
+    font-family:roboto;
+    display: block;
+    margin:10rem 5rem 10rem 8rem;
+}
+.contact-links a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color:black;
+}
+.about{
+    font-family:roboto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:100vw;
+}
+.about-div{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.about-me{
+    margin-left:4rem;
+    height:auto;
+    width:50vw;
+    font-family:'Lato';
+}
+.about-me h1{
+    color: #241fb8;
+    font-weight:100;
+}
+.about-me p{
+    text-align: justify;
+    margin-top: 2.15rem;
+    font-size: 18px;
+    font-weight: 50;
+}
+.heading{
+    text-align: center;
+    font-family: 'lato';
+    color:#241fb8;
+    margin-top: 13rem;
+    font-weight: 100;
+}
+.services{
+    margin-bottom: 10rem;
+    width:100vw;
+    display:grid;
+    justify-content: center;
+    grid-template-areas: backend
+                        front-end;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5rem;
+    justify-content: center;
+
+}
+.back-dev{
+    width:35vw;
+    margin-left: 5rem;
+}
+.backend, .front-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.front-dev{
+    width:35vw;
+    margin:0 5rem 0 0;
+}
+.dev h1{
+    font-family: roboto;
+    font-size: 30px;
+    margin-bottom:1rem ;
+}
+.dev p{
+    text-align: justify;
+    font-family: 'lato';
+    line-height:28px;
+}
+.dev button{
+    margin-top: 2rem;
+}
+.skill img{
+    margin: auto;
+}
+.extra-content{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.left{
+    margin:3rem 1rem 2rem 15rem;
+}
+.right{
+    margin:3rem 16rem 2rem 3rem;
+}
+.content{
+    font-family: 'lato';
+}
+.content > p{
+    margin-top: 2rem;
+}
+.read{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+.boxes{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swap{
+    font-family: 'lato';
+    padding:2rem 2rem 2rem 2rem;
+    width:20vw;
+    height:25vh;
+    box-shadow:0px 0px 10px 5px rgb(94,90,90);
+    display: flex;
+    margin-left: 1rem;
+}
+.swap-content{
+    margin-left:2rem;
+}
+.swap-content h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+.swap-content p{
+    font-weight: 80;
+}
+.rating{
+    margin-top: 2rem;
+    display: flex;
+}
+.star, .exchange{
+    display: flex;
+    margin-right: 1.5rem;
+}
+.bubbles{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:#241fb8;
+    gap:1rem;
+    margin: 5rem 0 0 10rem;
+
+}
+.help{
+    margin:10rem 0 10rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:23vw;
+}
+.help-content{
+    font-family:'lato';
+}
+.help-content h1{
+    font-weight: 80;
+    color:#241fb8;
+}
+.help-content h3{
+    color:black;
+    margin-top:0.5rem;
+    font-size:28px;
+    font-weight:80;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    gap:30vw;
+    font-family:'lato';
+}
+.footer-logo, .contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot-logo{
+    margin-right:1.5rem;
+}
+.contact-section{
+    text-decoration: none;
+    color:black;
+    margin-left: 5vw;
+}
+button:hover{
+    background-color: white;
+    color:#241fb8;
+    border:2px solid #241fb8;
+    cursor:pointer;
+    font-weight:600;
+}
